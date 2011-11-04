@@ -48,6 +48,7 @@ representations. It uses the PStricks, and xkeyval packages.
 %doc %{_texmfdistdir}/doc/generic/pst-asr/pst-asr-doc.pdf
 %doc %{_texmfdistdir}/doc/generic/pst-asr/pst-asr-examples.pdf
 %doc %{_texmfdistdir}/doc/generic/pst-asr/pst-asr-examples.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +59,5 @@ representations. It uses the PStricks, and xkeyval packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
