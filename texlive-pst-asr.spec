@@ -49,3 +49,17 @@ representations. It uses the PStricks, and xkeyval packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.3-2
++ Revision: 755219
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.3-1
++ Revision: 719332
+- texlive-pst-asr
+- texlive-pst-asr
+- texlive-pst-asr
+- texlive-pst-asr
+
