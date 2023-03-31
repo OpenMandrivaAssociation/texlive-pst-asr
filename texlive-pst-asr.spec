@@ -1,6 +1,6 @@
 Name:		texlive-pst-asr
 Version:	22138
-Release:	1
+Release:	2
 Summary:	Typeset autosegmental representations for linguists
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-asr
