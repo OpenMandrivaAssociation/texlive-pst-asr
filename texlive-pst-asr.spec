@@ -3,7 +3,7 @@ Version:	22138
 Release:	2
 Summary:	Typeset autosegmental representations for linguists
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-asr
+URL:		https://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-asr
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-asr.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-asr.doc.r%{version}.tar.xz
